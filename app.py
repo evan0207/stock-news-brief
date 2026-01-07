@@ -425,7 +425,7 @@ def main():
         # 자동 새로고침 토글
         st.markdown("---")
         st.session_state.auto_refresh = st.toggle(
-            "🔁 자동 새로고침 (30초)",
+            "🔁 주식 차트 자동 새로고침 (30초)",
             value=st.session_state.auto_refresh,
             help="30초마다 차트 데이터를 자동으로 업데이트합니다"
         )
