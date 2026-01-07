@@ -1,0 +1,8 @@
+# Global Stock News AI Brief - 필수 라이브러리
+# Python 3.10+ 필요
+
+streamlit>=1.28.0
+yfinance>=0.2.33
+google-generativeai>=0.3.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
